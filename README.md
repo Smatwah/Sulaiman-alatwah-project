@@ -52,11 +52,6 @@ F1-Score (High Value): ~90%
 
 Offers the best generalization and performance, handling imbalances and complex patterns well.
 
-Model | Accuracy | Precision (High) | Recall (High) | F1-Score (High)
-Logistic Regression | ~81% | ~82% | ~80% | ~81%
-Random Forest | ~88% | ~89% | ~87% | ~88%
-XGBoost (GPU/CPU) | ~89% | ~90% | ~88% | ~89%
-
 
 📈 3. Interpretation and Insights
 Gross Square Feet and Land Square Feet were consistently strong predictors of property value.
