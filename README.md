@@ -52,6 +52,12 @@ F1-Score (High Value): ~90%
 
 Offers the best generalization and performance, handling imbalances and complex patterns well.
 
+Model | Accuracy | Precision (High) | Recall (High) | F1-Score (High)
+Logistic Regression | ~81% | ~82% | ~80% | ~81%
+Random Forest | ~88% | ~89% | ~87% | ~88%
+XGBoost (GPU/CPU) | ~89% | ~90% | ~88% | ~89%
+
+
 📈 3. Interpretation and Insights
 Gross Square Feet and Land Square Feet were consistently strong predictors of property value.
 
@@ -67,22 +73,4 @@ Property tax forecasting
 
 Urban planning & zoning analysis
 
-📦 4. Business Value and Applications
-The results of this model could benefit:
 
-Real Estate Investors: flagging undervalued high-potential listings.
-
-Municipal Agencies: targeting tax reassessment.
-
-Banks: supporting mortgage risk evaluation.
-
-Developers: identifying where building attributes most impact resale value.
-
-📘 5. Next Steps
-Use SHAP or permutation importance for deeper explainability.
-
-Add more features: neighborhood, sale date, proximity to metro/stores.
-
-Deploy the model via a simple web app or dashboard.
-
-Automate model retraining monthly as new sales data arrives.
